@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\TBL\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @mui/material @emotion/react @emotion/styled
+
+PATH: 
+  C:\Program Files\ImageMagick-7.0.11-Q16-HDRI;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\xampp\php;C:\Program Files\nodejs\;C:\composer;C:\Ruby30-x64\bin;C:\Users\TBL\AppData\Local\Microsoft\WindowsApps;;C:\Users\TBL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\new\WebStorm 2020.2.3\bin;;C:\Users\TBL\AppData\Roaming\Composer\vendor\bin;C:\Users\TBL\AppData\Roaming\npm;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.22.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\FB-controller\node_modules\esbuild-windows-64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "FB-Controller",
+    "version": "0.0.0",
+    "scripts": {
+      "start": "HTTPS=true react-scripts start",
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "@mui/material": "^5.2.6",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-react": "^1.0.7",
+      "vite": "^2.7.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
